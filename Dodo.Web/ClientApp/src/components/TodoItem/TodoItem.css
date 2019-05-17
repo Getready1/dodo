@@ -1,0 +1,16 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.todo-item button {
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .todo-item {
+    font-size: 2em !important;
+  }
+}

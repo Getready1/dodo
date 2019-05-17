@@ -1,0 +1,38 @@
+body {
+  padding: 20px;
+  background-image: url('./img/floral-2069810.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: calc(0.6em + 1vw) !important;
+  }
+
+  body {
+    padding: 5px;
+  }
+}
+
+.menu a.item {
+  font-size: 1.3em;
+  font-weight: bold !important;
+  color: #607d8b !important;
+}
+
+.menu > a.item.active {
+  color: #9c27b0 !important;
+}
+
+.segment {
+  position: relative;
+}
+
+.segment div.label {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
